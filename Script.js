@@ -13,20 +13,8 @@ else if(n1==n2){
 else{
     document.querySelector("h1").textContent="player2 wins";
 }
-fn1(n1);fn2(n2);
-function fn1(n){
-    if(n==1)document.querySelector("img.img1").setAttribute("src","dice1.png");
-    if(n==2)document.querySelector("img.img1").setAttribute("src","dice2.png");
-    if(n==3)document.querySelector("img.img1").setAttribute("src","dice3.png");
-    if(n==4)document.querySelector("img.img1").setAttribute("src","dice4.png");
-    if(n==5)document.querySelector("img.img1").setAttribute("src","dice5.png");
-    if(n==6)document.querySelector("img.img1").setAttribute("src","dice6.png");
-}
-function fn2(n){
-    if(n==1)document.querySelector("img.img2").setAttribute("src","dice1.png");
-    if(n==2)document.querySelector("img.img2").setAttribute("src","dice2.png");
-    if(n==3)document.querySelector("img.img2").setAttribute("src","dice3.png");
-    if(n==4)document.querySelector("img.img2").setAttribute("src","dice4.png");
-    if(n==5)document.querySelector("img.img2").setAttribute("src","dice5.png");
-    if(n==6)document.querySelector("img.img2").setAttribute("src","dice6.png");
-}
+var randomdice1="dice"+n1+".png";
+var randomdice2="dice"+n2+".png";
+document.querySelector("img.img1").setAttribute("src",randomdice1);
+document.querySelector("img.img2").setAttribute("src",randomdice2);
+

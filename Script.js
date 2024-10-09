@@ -15,18 +15,18 @@ else{
 }
 fn1(n1);fn2(n2);
 function fn1(n){
-    if(n==1)document.querySelector("img.img1").setAttribute("src","./images/dice1.png");
-    if(n==2)document.querySelector("img.img1").setAttribute("src","./images/dice2.png");
-    if(n==3)document.querySelector("img.img1").setAttribute("src","./images/dice3.png");
-    if(n==4)document.querySelector("img.img1").setAttribute("src","./images/dice4.png");
-    if(n==5)document.querySelector("img.img1").setAttribute("src","./images/dice5.png");
-    if(n==6)document.querySelector("img.img1").setAttribute("src","./images/dice6.png");
+    if(n==1)document.querySelector("img.img1").setAttribute("src","./dice1.png");
+    if(n==2)document.querySelector("img.img1").setAttribute("src","./dice2.png");
+    if(n==3)document.querySelector("img.img1").setAttribute("src","./dice3.png");
+    if(n==4)document.querySelector("img.img1").setAttribute("src","./dice4.png");
+    if(n==5)document.querySelector("img.img1").setAttribute("src","./dice5.png");
+    if(n==6)document.querySelector("img.img1").setAttribute("src","./dice6.png");
 }
 function fn2(n){
-    if(n==1)document.querySelector("img.img2").setAttribute("src","./images/dice1.png");
-    if(n==2)document.querySelector("img.img2").setAttribute("src","./images/dice2.png");
-    if(n==3)document.querySelector("img.img2").setAttribute("src","./images/dice3.png");
-    if(n==4)document.querySelector("img.img2").setAttribute("src","./images/dice4.png");
-    if(n==5)document.querySelector("img.img2").setAttribute("src","./images/dice5.png");
-    if(n==6)document.querySelector("img.img2").setAttribute("src","./images/dice6.png");
+    if(n==1)document.querySelector("img.img2").setAttribute("src","./dice1.png");
+    if(n==2)document.querySelector("img.img2").setAttribute("src","./dice2.png");
+    if(n==3)document.querySelector("img.img2").setAttribute("src","./dice3.png");
+    if(n==4)document.querySelector("img.img2").setAttribute("src","./dice4.png");
+    if(n==5)document.querySelector("img.img2").setAttribute("src","./dice5.png");
+    if(n==6)document.querySelector("img.img2").setAttribute("src","./dice6.png");
 }
